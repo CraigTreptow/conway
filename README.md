@@ -1,2 +1,2 @@
 # conway
-Python implementation of Conway's law
+Python implementation of Conway's game of life
