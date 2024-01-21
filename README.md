@@ -3,8 +3,8 @@ Python implementation of Conway's game of life
 
 ## To Do
 
-- [ ] Create a grid
-- [ ] Display the grid
+- [X] Create a grid
+- [X] Display the grid
 - [ ] Read file of starting positions
 - [ ] Apply starting positions to grid
 - [ ] Implement rules
