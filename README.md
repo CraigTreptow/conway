@@ -12,6 +12,32 @@ Python implementation of Conway's game of life
 
 ## Description
 
+### Grid
+
+The grid is a 2D array of cells. Each cell is either alive or dead. The grid is displayed as a 2D array of `.` for dead cells and `*` for live cells.
+
+### Starting Positions
+
+Starting positions are read from a file. The file contains a list of coordinates for live cells. The coordinates are in the format `x,y`. The file is read line by line and the coordinates are used to set the initial state of the grid.  The first line contains the size of the grid. The following lines contain the coordinates of the live cells.
+
+### Example Grid
+
+```
+0  ---------------- 10
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+|  . . . . . . . . . .
+10 . . . . . . . . . .
+```
+
+### Rules
+
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
@@ -24,7 +50,7 @@ The initial pattern constitutes the seed of the system. The first generation is 
 
 ## Usage
 
-```python -m conway grid_size```
+```python -m conway grid_starting_positions```
 
 ## Setup Commands 
 
