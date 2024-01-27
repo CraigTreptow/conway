@@ -5,10 +5,11 @@ Python implementation of Conway's game of life
 
 - [X] Create a grid
 - [X] Display the grid
-- [ ] Read file of starting positions
-- [ ] Apply starting positions to grid
-- [ ] Implement rules
-- [ ] Display next generation
+- [X] Read file of starting positions
+- [X] Apply starting positions to grid
+- [X] Implement rules
+- [X] Display next generation
+- [ ] Add starting grid editor
 
 ## Description
 
